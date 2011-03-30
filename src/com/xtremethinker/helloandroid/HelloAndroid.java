@@ -9,7 +9,7 @@ public class HelloAndroid extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //TextView tv=new TextView(this);
+        TextView tv=new TextView(this);
         //tv.setText("Hello World");
         setContentView(R.layout.main);
     }
